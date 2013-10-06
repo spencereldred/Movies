@@ -12,7 +12,6 @@
 
   <div id="details">
     <h2><%= @movie_info["Title"] %></h2>
-
     <div><span class="label">Year: </span>              <span class="value"><%= @movie_info["Year"] %></span></div>
     <div><span class="label">Rated: </span>             <span class="value"><%= @movie_info["Rated"] %></span></div>
     <div><span class="label">Runtime: </span>         <span class="value"><%= @movie_info["Runtime"] %></div>
@@ -23,7 +22,9 @@
     <div><span class="label">Votes: </span>             <span class="value"><%= @movie_info["imdbVotes"] %></span></div>
     <div><span class="label">Type: </span>              <span class="value"><%= @movie_info["Type"] %></span></div>
     <div><span class="label">Plot: </span>                <span class="value"><%= @movie_info["Plot"] %></span></div>
-      </br>
+
+  </div>
+  <div>
       <a href="/"><button >Movie Search</button></a>
   </div>
 
